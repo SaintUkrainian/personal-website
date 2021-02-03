@@ -4,9 +4,27 @@
     justify-content: space-around;
     height: 150px;
     margin-bottom: 50px;
-    transition: all 0.3s ease-out;
+    transition: all 0.2s ease-out;
 }
 
-.open {
+.icons-enter-active {
+    opacity: 0;
+}
+
+.icons-enter-done {
     flex-direction: row;
+    justify-content: space-around;
+    width: inherit;
+    opacity: 1;
+}
+
+.icons-exit-active {
+    width: inherit;
+    flex-direction: row;
+    justify-content: space-around;
+    opacity: 0;
+}
+
+.icons-exit-done {
+    opacity: 1;
 }

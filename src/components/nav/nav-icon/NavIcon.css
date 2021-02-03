@@ -26,6 +26,10 @@
     transition: all 0.3s ease-out;
 }
 
+.NavIcon:hover div {
+    width: 36px;
+}
+
 .slide-enter-active {
     transform: translateX(100px);
 }
