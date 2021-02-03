@@ -1,18 +1,20 @@
-import './App.css';
+import React from "react";
 
+import "./App.css";
 import Nav from "./components/nav/Nav";
-import About from "./components/about/About";
+import {Route, Switch} from "react-router";
+import Home from "./paths/Home/Home";
 
 function App() {
+
     return (
         <div className="App">
             <Nav/>
-            <div className={"Main"}>
-                <div className={"Welcome"}>
-                    <h1>Hey, Welcome!</h1>
-                </div>
-                <About/>
-            </div>
+            <Switch>
+                <Route path={"/about"}><h1>Hey</h1></Route>
+                <Route exact path={"/"} component={Home}/>
+            </Switch>
+
         </div>
     );
 }

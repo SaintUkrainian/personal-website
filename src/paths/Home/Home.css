@@ -1,0 +1,51 @@
+.Main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.Welcome {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.Welcome h1 {
+    margin-right: 40px;
+}
+
+.welcome-enter {
+    transition: all 1s ease-out;
+    opacity: 0;
+}
+
+.welcome-enter-active {
+    opacity: 1;
+}
+
+.welcome-enter-done {
+    opacity: 1;
+}
+
+.welcome-exit-done {
+    opacity: 0;
+}
+
+
+.about-enter {
+    transition: all 1.5s ease-out;
+    opacity: 0;
+}
+
+.about-enter-active {
+    opacity: 1;
+}
+
+.about-enter-done {
+    opacity: 1;
+}

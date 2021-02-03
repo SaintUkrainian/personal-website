@@ -6,24 +6,23 @@
   align-items: center;
   font-family: 'Montserrat', sans-serif;
   height: 100vh;
+  transition: all 0.3s ease-out;
 }
 
-.Main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.paths-enter {
+  opacity: 0;
+  transition: all 0.3s ease-out;
 }
 
-.Welcome {
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-  color: white;
-  font-weight: 600;
-  font-size: 36px;
+.paths-enter-active {
+  opacity: 1;
 }
 
-.Welcome h1 {
-  margin-right: 40px;
+.paths-exit {
+  opacity: 1;
+  transition: all 0.3s ease-out;
+}
+
+.paths-exit-active {
+  opacity: 0;
 }
