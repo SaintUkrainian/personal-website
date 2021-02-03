@@ -9,7 +9,7 @@ const about = () => {
         <div className={"About"}>
             <MyPhoto/>
             <p>My name is Denys. I’m a <strong>Trainee Java Developer</strong>.
-                Currently working in <strong>SoftServe</strong> company.
+                <br/>Currently working in <strong>SoftServe</strong> company.
                 <br/>
                 <br/>
                 My hobbies:

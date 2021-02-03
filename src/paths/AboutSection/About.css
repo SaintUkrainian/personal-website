@@ -1,0 +1,19 @@
+.AboutSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    top:100px;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+.AboutSection p {
+    margin: 50px;
+    width: 800px;
+    font-size: 26px;
+    color: white;
+    text-align: left;
+}

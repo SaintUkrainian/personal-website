@@ -9,32 +9,29 @@
   transition: all 0.7s ease-out;
 }
 
-.paths {
-
-}
-
 .paths-enter {
-  opacity: 0;
   transition: all 0.7s ease-out;
-  transform: translateY(-100%);
+  opacity: 0;
+  transform: translateX(-100%);
 }
 
 .paths-enter-active {
+  transition: all 0.7s ease-out;
   opacity: 0;
 }
 
 .paths-enter-done {
   transition: all 0.7s ease-out;
-  transform: translateY(0);
   opacity: 1;
+  transform: translateX(0);
 }
 
 .paths-exit {
-  opacity: 1;
-  transition: all 0.7s ease-out;
+  display: none;
 }
 
 .paths-exit-active {
+  transition: all 0.7s ease-out;
   opacity: 0;
-  transform: translateY(100%);
+  transform: translateX(100%);
 }
