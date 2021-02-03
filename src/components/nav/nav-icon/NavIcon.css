@@ -1,0 +1,56 @@
+.NavIcon {
+    margin-top: 20px;
+    width: 38px;
+    height: 15px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+
+.bar1 {
+    width: 36px;
+    height: 3px;
+    background: #C4C4C4;
+    border-radius: 15px;
+    transition: all 0.3s ease-out;
+}
+
+.bar2 {
+    width: 20px;
+    height: 3px;
+    background: #C4C4C4;
+    border-radius: 15px;
+    transition: all 0.3s ease-out;
+}
+
+.slide-enter-active {
+    transform: translateX(100px);
+}
+
+.bar1.open {
+    width: 36px;
+    transform: rotate(138.29deg);
+    position: absolute;
+}
+
+.bar2.open{
+    width: 36px;
+    transform: rotate(41.71deg);
+    position: absolute;
+}
+
+.NavIcon.open {
+    justify-content: center;
+    align-items: center;
+}
+
+.slide-enter-done {
+    transform: translateX(100px);
+}
+
+.slide-exit-done {
+    transform: translateX(0);
+}

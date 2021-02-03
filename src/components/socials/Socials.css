@@ -1,0 +1,12 @@
+.Socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 150px;
+    margin-bottom: 50px;
+    transition: all 0.3s ease-out;
+}
+
+.open {
+    flex-direction: row;
+}

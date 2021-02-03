@@ -1,0 +1,17 @@
+.Nav {
+    position: fixed;
+    width: 70px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(55, 71, 96, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.3s ease-out;
+}
+
+.open {
+    width: 270px;
+}

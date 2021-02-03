@@ -1,0 +1,31 @@
+.Icon {
+    width: 36px;
+    height: 36px;
+    transition: all 0.3s ease-out;
+    border-radius: 36px;
+    cursor: pointer;
+}
+
+.Gmail:hover {
+    box-shadow: 0 2px 3px salmon,
+    0 2px 6px salmon,
+    0 2px 9px salmon,
+    0 2px 12px salmon,
+    0 2px 15px salmon;
+}
+
+.LinkedIn:hover {
+    box-shadow: 0 2px 3px #389bd0,
+    0 2px 6px #389bd0,
+    0 2px 9px #389bd0,
+    0 2px 12px #389bd0,
+    0 2px 15px #389bd0;
+}
+
+.Github:hover {
+    box-shadow: 0 2px 3px black,
+    0 2px 6px black,
+    0 2px 9px black,
+    0 2px 12px black,
+    0 2px 15px black;
+}
