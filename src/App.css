@@ -6,23 +6,35 @@
   align-items: center;
   font-family: 'Montserrat', sans-serif;
   height: 100vh;
-  transition: all 0.3s ease-out;
+  transition: all 0.7s ease-out;
+}
+
+.paths {
+
 }
 
 .paths-enter {
   opacity: 0;
-  transition: all 0.3s ease-out;
+  transition: all 0.7s ease-out;
+  transform: translateY(-100%);
 }
 
 .paths-enter-active {
+  opacity: 0;
+}
+
+.paths-enter-done {
+  transition: all 0.7s ease-out;
+  transform: translateY(0);
   opacity: 1;
 }
 
 .paths-exit {
   opacity: 1;
-  transition: all 0.3s ease-out;
+  transition: all 0.7s ease-out;
 }
 
 .paths-exit-active {
   opacity: 0;
+  transform: translateY(100%);
 }
