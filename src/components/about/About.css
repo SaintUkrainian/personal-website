@@ -24,3 +24,15 @@
     }
 
 }
+
+@media (max-height: 420px) {
+    .About {
+        margin-top: 0;
+        margin-left: 120px;
+    }
+
+    .About p {
+        margin: 20px;
+        font-size: 18px;
+    }
+}
