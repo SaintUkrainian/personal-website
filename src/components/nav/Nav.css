@@ -22,13 +22,14 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 200px;
+    height: 300px;
     color: white;
     transition: all 0.3s ease-out;
 }
 
 .Link {
     color: white;
+    font-size: 30px;
     text-decoration: none;
     transition: all 0.3s ease-out;
 }

@@ -7,7 +7,7 @@ import {BrowserRouter} from "react-router-dom"
 
 
 const app = (
-    <BrowserRouter basename={"personal-webpage"}>
+    <BrowserRouter basename={"personal-website"}>
         <App/>
     </BrowserRouter>
 );

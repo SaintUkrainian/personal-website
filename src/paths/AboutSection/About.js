@@ -8,7 +8,7 @@ const aboutSection = () => {
         <div className={"AboutSection"}>
             <MyPhoto2 />
             <p>
-                I want to tell you a short story about me. Hope you enjoy).
+                Here's a short story about me. Hope you enjoy).
                 I was born in Kremenchuk, Ukraine. Finished school and currently studying in <strong>Karazin University,
                 in Kharkiv</strong>.
                     I'm a student of <strong>Computer Science faculty</strong>. I enjoy programming and sort of stuff.
