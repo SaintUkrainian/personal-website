@@ -8,7 +8,6 @@ import {TransitionGroup} from "react-transition-group";
 import CSSTransition from "react-transition-group/CSSTransition";
 import About from "./paths/AboutSection/About";
 import Portfolio from "./paths/Portfolio/Portfolio";
-import {Redirect} from "react-router-dom";
 
 function App() {
 

@@ -31,3 +31,19 @@
         overflow: scroll;
     }
 }
+
+@media (max-height: 420px) {
+
+    .AboutSection {
+        top: 10px;
+        flex-direction: row;
+    }
+    .AboutSection p {
+        width: 380px;
+        font-size: 17px;
+        margin: 40px 10px 15px 0;
+        height: 300px;
+        overflow: scroll;
+    }
+
+}

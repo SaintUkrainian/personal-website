@@ -23,3 +23,16 @@
         height: 200px;
     }
 }
+
+@media (max-height: 420px) {
+    .Photo {
+        width: 150px;
+        height: 200px;
+    }
+
+    .Photo2 {
+        width: 200px;
+        height: 270px;
+        margin-right: 20px;
+    }
+}

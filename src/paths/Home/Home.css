@@ -31,3 +31,17 @@
         font-size: 18px;
     }
 }
+
+@media (max-height: 420px) {
+    .Main {
+        top:0;
+    }
+
+    .Welcome {
+        font-size: 18px;
+    }
+
+    .Welcome h1 {
+        margin-right: 40px;
+    }
+}
