@@ -49,6 +49,7 @@
 .NavIcon.open {
     justify-content: center;
     align-items: center;
+    width: fit-content;
 }
 
 .slide-enter-done {
