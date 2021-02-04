@@ -7,6 +7,7 @@ import Home from "./paths/Home/Home";
 import {TransitionGroup} from "react-transition-group";
 import CSSTransition from "react-transition-group/CSSTransition";
 import About from "./paths/AboutSection/About";
+import Portfolio from "./paths/Portfolio/Portfolio";
 
 function App() {
 
@@ -16,9 +17,11 @@ function App() {
             <Route render={({location}) => (
                 <TransitionGroup>
                     <CSSTransition key={location.key} timeout={700}
-                                   classNames={"paths"} mountOnEnter unmountOnExit>
+                                   classNames={"paths"} mountOnEnter
+                                   unmountOnExit>
                         <Switch location={location}>
                             <Route path={"/about"} component={About}/>
+                            <Route path={"/portfolio"} component={Portfolio}/>
                             <Route exact path={"/"} component={Home}/>
                         </Switch>
                     </CSSTransition>

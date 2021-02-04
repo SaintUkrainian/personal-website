@@ -28,3 +28,10 @@
 .icons-exit-done {
     opacity: 1;
 }
+
+@media (max-height: 420px) {
+    .Socials {
+        margin-bottom: 0;
+        align-items: center;
+    }
+}
