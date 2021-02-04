@@ -19,9 +19,11 @@
 }
 
 @media (max-width: 600px) {
+    .AboutSection {
+        top: 40px;
+    }
     .AboutSection p {
         width: 80%;
-        top: 10px;
         font-size: 18px;
         margin-left: 90px;
         margin-bottom: 10px;
