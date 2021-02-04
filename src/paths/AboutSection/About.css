@@ -23,5 +23,8 @@
         width: 80%;
         font-size: 18px;
         margin-left: 90px;
+        margin-bottom: 10px;
+        height: 300px;
+        overflow: scroll;
     }
 }
