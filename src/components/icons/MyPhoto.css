@@ -2,10 +2,24 @@
     border-radius: 10px;
     width: 335px;
     height: 465px;
+    border: 2px solid white;
 }
 
 .Photo2 {
     border-radius: 10px;
     width: 340px;
     height: 380px;
+    border: 2px solid white;
+}
+
+@media (max-width: 600px) {
+    .Photo {
+        width: 150px;
+        height: 200px;
+    }
+
+    .Photo2 {
+        width: 180px;
+        height: 200px;
+    }
 }

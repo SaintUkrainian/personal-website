@@ -53,3 +53,14 @@
 .appear-exit-active {
     opacity: 0;
 }
+
+@media (max-width: 600px) {
+
+    .Nav {
+        width: 50px;
+    }
+
+    .open {
+        width: 200px;
+    }
+}
