@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.80de2059.chunk.css",
+    "main.css": "/personal-website/static/css/main.1eb97eda.chunk.css",
     "main.js": "/personal-website/static/js/main.5dc943f2.chunk.js",
     "main.js.map": "/personal-website/static/js/main.5dc943f2.chunk.js.map",
     "runtime-main.js": "/personal-website/static/js/runtime-main.0ddfe0db.js",
@@ -10,7 +10,7 @@
     "static/js/3.7580bd60.chunk.js": "/personal-website/static/js/3.7580bd60.chunk.js",
     "static/js/3.7580bd60.chunk.js.map": "/personal-website/static/js/3.7580bd60.chunk.js.map",
     "index.html": "/personal-website/index.html",
-    "static/css/main.80de2059.chunk.css.map": "/personal-website/static/css/main.80de2059.chunk.css.map",
+    "static/css/main.1eb97eda.chunk.css.map": "/personal-website/static/css/main.1eb97eda.chunk.css.map",
     "static/js/2.8ef88614.chunk.js.LICENSE.txt": "/personal-website/static/js/2.8ef88614.chunk.js.LICENSE.txt",
     "static/media/index.css": "/personal-website/static/media/background.9d95ff94.jpg",
     "static/media/films-finder-react.d4b5fcb6.png": "/personal-website/static/media/films-finder-react.d4b5fcb6.png",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.0ddfe0db.js",
     "static/js/2.8ef88614.chunk.js",
-    "static/css/main.80de2059.chunk.css",
+    "static/css/main.1eb97eda.chunk.css",
     "static/js/main.5dc943f2.chunk.js"
   ]
 }
