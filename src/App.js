@@ -8,6 +8,7 @@ import {TransitionGroup} from "react-transition-group";
 import CSSTransition from "react-transition-group/CSSTransition";
 import About from "./paths/AboutSection/About";
 import Portfolio from "./paths/Portfolio/Portfolio";
+import {Redirect} from "react-router-dom";
 
 function App() {
 
@@ -20,9 +21,10 @@ function App() {
                                    classNames={"paths"} mountOnEnter
                                    unmountOnExit>
                         <Switch location={location}>
-                            <Route path={"/about"} component={About}/>
-                            <Route path={"/portfolio"} component={Portfolio}/>
+                            <Route exact path={"/about"} component={About}/>
+                            <Route exact path={"/portfolio"} component={Portfolio}/>
                             <Route exact path={"/"} component={Home}/>
+                            <Redirect from={"/**"} to={"/"} />
                         </Switch>
                     </CSSTransition>
                 </TransitionGroup>
