@@ -58,3 +58,14 @@
 .slide-exit-done {
     transform: translateX(0);
 }
+
+@media (max-width: 600px) {
+
+    .slide-enter-active {
+        transform: translateX(80px);
+    }
+
+    .slide-enter-done {
+        transform: translateX(80px);
+    }
+}

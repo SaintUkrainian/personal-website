@@ -1,0 +1,99 @@
+.Portfolio {
+    top:200px;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    position: fixed;
+}
+
+.Portfolio img {
+
+    margin: auto;
+    height: 50%;
+    width: 50%;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.Portfolio div {
+    display: flex;
+    flex-direction: column;
+}
+
+.Buttons {
+    color: white;
+    width: fit-content;
+    display: flex;
+    flex-direction: row !important;
+}
+
+.Button {
+    color: white;
+    font-family: inherit;
+    border: none;
+    margin: 20px;
+    font-size: 24px;
+    outline: none;
+    cursor: pointer;
+    border-bottom: 2px solid white;
+    background: none !important;
+}
+
+.Button:hover {
+    color: #c4c4c4;
+}
+
+.app-link {
+    width: fit-content;
+    text-decoration: underline;
+    color: white;
+    font-size: 30px;
+    margin: auto auto 10px;
+}
+
+.app-link:hover {
+    color: #c4c4c4;
+}
+
+.tip {
+    display: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    width: 220px;
+}
+
+@media (max-width: 600px) {
+    .app-link {
+        width: 250px;
+        font-size: 18px;
+    }
+
+    .tip {
+        display: block;
+    }
+
+    .Portfolio img {
+        width: 70%;
+        height: 70%;
+    }
+}
+
+@media (max-height: 420px) {
+    .Portfolio {
+        top: 40px;
+    }
+
+    .tip {
+        display: none;
+    }
+
+    .Portfolio img {
+        height: 220px !important;
+    }
+}
+

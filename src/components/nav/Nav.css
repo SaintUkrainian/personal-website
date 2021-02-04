@@ -38,18 +38,30 @@
     border-bottom: 2px solid white;
 }
 
-.paths-enter {
+.appear-enter {
     opacity: 0;
 }
 
 .appear-enter-active {
+    transition: all 0.3s ease-out;
     opacity: 1;
 }
 
 .appear-exit {
-    opacity: 1;
+    transition: all 0.3s ease-out;
 }
 
 .appear-exit-active {
     opacity: 0;
+}
+
+@media (max-width: 600px) {
+
+    .Nav {
+        width: 50px;
+    }
+
+    .open {
+        width: 200px;
+    }
 }
