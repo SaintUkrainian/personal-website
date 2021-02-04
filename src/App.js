@@ -23,8 +23,7 @@ function App() {
                         <Switch location={location}>
                             <Route exact path={"/about"} component={About}/>
                             <Route exact path={"/portfolio"} component={Portfolio}/>
-                            <Route exact path={"/home"} component={Home}/>
-                            <Redirect from={"/*"} to={"/home"} />
+                            <Route path={"/"} component={Home}/>
                         </Switch>
                     </CSSTransition>
                 </TransitionGroup>
