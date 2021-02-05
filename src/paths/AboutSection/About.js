@@ -12,10 +12,8 @@ const aboutSection = () => {
                 I was born in Kremenchuk, Ukraine. Finished school and currently studying in <strong>Karazin University,
                 in Kharkiv</strong>.
                     I'm a student of <strong>Computer Science faculty</strong>. I enjoy programming and sort of stuff.
-                    So, in my freetime i'm trying to learn as much new information as possible.
+                    So, in my free time i'm trying to learn as much new information as possible.
                     I do that by either watching courses on Udemy or videos on Youtube.
-                    But now, i'm looking for a job to release myself as a developer,
-                    because i've got a passion to work in a team on real projects.
                     My <strong>Skills</strong> you can find on <strong>LinkedIn profile</strong> (look at the navigation bar ;)).
             </p>
         </div>
